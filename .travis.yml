@@ -7,7 +7,7 @@ install:
 # install dependencies from setup.py
    - pip install .
 # install dependencies from requirements.txt
-   - pip install -r requirements.txt
+#   - pip install -r requirements.txt
 # run nose tests
 script: nosetests
 # more information on configuring openshift deployments
