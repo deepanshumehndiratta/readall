@@ -16,6 +16,7 @@ def save_config(since_id=0):
 
 
 def save_to_readability(urls):
+    urls = urls[::-1]
     for url in urls:
         readability_api.add_bookmark(url=url, allow_duplicates=False)
 
